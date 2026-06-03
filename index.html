@@ -16,7 +16,7 @@
     <nav class="site-header__nav" aria-label="Secciones">
       <a href="#sistema">Sistema</a>
       <a href="#componentes">Componentes</a>
-      <a href="#consulta">Consulta</a>
+      <a href="#consulta" data-open-consult>Consulta</a>
     </nav>
   </header>
 
@@ -35,7 +35,7 @@
         </p>
         <div class="hero__actions reveal">
           <a class="button button--primary" href="#componentes">Ver componentes</a>
-          <a class="button button--secondary" href="#consulta">Consultar Pack DMR</a>
+          <a class="button button--secondary" href="#consulta" data-open-consult>Consultar Pack DMR</a>
         </div>
       </div>
     </section>
@@ -114,7 +114,7 @@
             <strong>Mayor estabilidad neumática y mejor aprovechamiento del volumen de aire.</strong>
           </article>
           <article class="component-card reveal">
-            <img src="images/component-spring-guide.png" alt="Guía de muelle para Pack DMR">
+            <img src="images/muelles.jpeg" alt="Muelles para ajuste interno del Pack DMR">
             <span>04</span>
             <h3>Guía de muelle</h3>
             <p>Aporta estabilidad al muelle y ayuda a mantener un ciclo más ordenado y repetible en configuraciones de mayor exigencia.</p>
@@ -135,7 +135,7 @@
             <strong>Transmisión fiable y ciclo más estable.</strong>
           </article>
           <article class="component-card reveal">
-            <img src="images/component-extra.png" alt="Gatillo electrónico Leviathan para Pack DMR">
+            <img src="images/gatillo-leviathan.jpeg" alt="Gatillo electrónico Leviathan para Pack DMR">
             <span>07</span>
             <h3>Gatillo electrónico Leviathan</h3>
             <p>Sistema electrónico avanzado para controlar el disparo y ajustar el comportamiento de la réplica dentro de una plataforma DMR estable.</p>
@@ -162,13 +162,15 @@
           <p>El comportamiento debe revisarse con la bola real, el uso previsto y los límites del campo.</p>
         </div>
         <div class="test-grid">
-          <article class="test-card reveal"><span>01</span><strong>Consistencia</strong></article>
-          <article class="test-card reveal"><span>02</span><strong>Alimentación</strong></article>
-          <article class="test-card reveal"><span>03</span><strong>Compresión</strong></article>
-          <article class="test-card reveal"><span>04</span><strong>Estabilidad</strong></article>
-          <article class="test-card reveal"><span>05</span><strong>Compatibilidad</strong></article>
+          <article class="test-card reveal"><img class="vector-icon" src="images/Prueba final.png" alt="" aria-hidden="true"><span>01</span><strong>Consistencia</strong></article>
+          <article class="test-card reveal"><img class="vector-icon" src="images/Alimentacion.png" alt="" aria-hidden="true"><span>02</span><strong>Alimentación</strong></article>
+          <article class="test-card reveal"><img class="vector-icon" src="images/compresion.png" alt="" aria-hidden="true"><span>03</span><strong>Compresión</strong></article>
+          <article class="test-card reveal"><img class="vector-icon" src="images/Gearbox.png" alt="" aria-hidden="true"><span>04</span><strong>Estabilidad</strong></article>
+          <article class="test-card reveal"><img class="vector-icon" src="images/Compatibilidad.png" alt="" aria-hidden="true"><span>05</span><strong>Compatibilidad</strong></article>
         </div>
       </div>
+        <div class="section-inline-cta reveal"><a class="button button--primary" href="#consulta" data-open-consult>Consultar Pack DMR</a></div>
+
     </section>
     <!-- FIN PRUEBAS Y CRITERIO -->
 
@@ -180,10 +182,10 @@
           <h2 id="benefits-title">Más estabilidad, menos pérdidas innecesarias</h2>
         </div>
         <div class="benefit-grid">
-          <article class="benefit-card reveal"><span>01</span><h3>Trayectoria más estable</h3><p>El conjunto busca reducir variaciones que afecten al disparo repetible.</p></article>
-          <article class="benefit-card reveal"><span>02</span><h3>Mejor aprovechamiento con bola pesada</h3><p>Volumen de aire, sellado y compresión se plantean para trabajar de forma coherente.</p></article>
-          <article class="benefit-card reveal"><span>03</span><h3>Mayor repetibilidad</h3><p>La preparación se centra en que la plataforma se comporte igual disparo tras disparo.</p></article>
-          <article class="benefit-card reveal"><span>04</span><h3>Plataforma sólida</h3><p>Una configuración DMR seria debe sentirse estable, no forzada.</p></article>
+          <article class="benefit-card reveal"><img class="vector-icon" src="images/Diana.png" alt="" aria-hidden="true"><span>01</span><h3>Trayectoria más estable</h3><p>El conjunto busca reducir variaciones que afecten al disparo repetible.</p></article>
+          <article class="benefit-card reveal"><img class="vector-icon" src="images/Bola pesada.png" alt="" aria-hidden="true"><span>02</span><h3>Mejor aprovechamiento con bola pesada</h3><p>Volumen de aire, sellado y compresión se plantean para trabajar de forma coherente.</p></article>
+          <article class="benefit-card reveal"><img class="vector-icon" src="images/Prueba final.png" alt="" aria-hidden="true"><span>03</span><h3>Mayor repetibilidad</h3><p>La preparación se centra en que la plataforma se comporte igual disparo tras disparo.</p></article>
+          <article class="benefit-card reveal"><img class="vector-icon" src="images/Gearbox.png" alt="" aria-hidden="true"><span>04</span><h3>Plataforma sólida</h3><p>Una configuración DMR seria debe sentirse estable, no forzada.</p></article>
         </div>
       </div>
     </section>
@@ -200,6 +202,22 @@
       </div>
     </section>
     <!-- FIN COMPATIBILIDAD Y LÍMITES -->
+
+    <!-- CONTACTO DIRECTO -->
+    <section class="direct-contact section-pad" aria-label="Contacto directo">
+      <div class="page-shell">
+        <aside class="contact-card reveal" aria-label="Contacto directo">
+          <p class="section-kicker">Contacto directo</p>
+          <h3>Te ayudamos a decidir antes de comprar</h3>
+          <p>Envíanos tu réplica, el uso que le das y qué quieres mejorar. Mejor consultar primero que montar piezas que no trabajen bien juntas.</p>
+          <div class="contact-card__actions">
+            <a class="button button--primary" href="#consulta" data-open-consult>Consultar mi réplica</a>
+            <a class="button button--secondary" href="https://wa.me/34XXXXXXXXX">WhatsApp</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+    <!-- FIN CONTACTO DIRECTO -->
 
     <!-- FORMULARIO -->
     <section id="consulta" class="consult section-pad" aria-labelledby="consult-title">
@@ -224,6 +242,24 @@
     </section>
     <!-- FIN FORMULARIO -->
 
+<!-- COMPARATIVA -->
+    <section id="otros-packs" class="compare section-pad section-raised" aria-labelledby="compare-title">
+      <div class="page-shell">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Comparativa con otros packs</p>
+          <h2 id="compare-title">¿Es este tu pack?</h2>
+          <p>Cada pack responde a una forma distinta de jugar.</p>
+        </div>
+        <div class="compare-grid">
+          <a class="compare-card reveal" href="https://pedropcg-ops.github.io/O-Clock-Airsoft-Pack-Fusilero/"><span>Pack Fusilero</span><strong>Equilibrio general, consistencia y fiabilidad.</strong></a>
+          <a class="compare-card reveal" href="https://pedropcg-ops.github.io/O-Clock-Airsoft-Pack-Asalto-/"><span>Pack Asalto</span><strong>Respuesta inmediata y control en juego dinámico.</strong></a>
+          <a class="compare-card reveal" href="https://pedropcg-ops.github.io/O-Clock-Airsoft-Pack-Tirador/"><span>Pack Tirador</span><strong>Precisión, agrupación y disparo limpio.</strong></a>
+          <a class="compare-card compare-card--active reveal" href="https://pedropcg-ops.github.io/O-Clock-Airsoft-Pack-DMR/"><span>Pack DMR</span><strong>Bola pesada, largo alcance y consistencia.</strong></a>
+        </div>
+      </div>
+    </section>
+    <!-- FIN COMPARATIVA -->
+
     <!-- CTA FINAL -->
     <section class="final-cta" aria-labelledby="final-title">
       <div class="final-cta__bg" aria-hidden="true">
@@ -233,13 +269,36 @@
         <p class="section-kicker">O'Clock Airsoft</p>
         <h2 id="final-title">Construye una plataforma DMR con criterio</h2>
         <p>Cuéntanos tu base, gramaje, límite de campo y objetivo de alcance. Te orientamos antes de montar piezas sin sentido.</p>
-        <a class="button button--primary" href="#consulta">Consultar Pack DMR</a>
+        <a class="button button--primary" href="#consulta" data-open-consult>Consultar Pack DMR</a>
       </div>
     </section>
     <!-- FIN CTA FINAL -->
   </main>
+  <!-- POP-UP DE CONSULTA -->
+  <div class="consult-modal" id="consult-modal" aria-hidden="true">
+    <div class="consult-modal__backdrop" data-close-consult></div>
+    <section class="consult-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="modal-consult-title">
+      <button class="consult-modal__close" type="button" data-close-consult aria-label="Cerrar consulta">&times;</button>
+      <p class="section-kicker">Consulta técnica</p>
+      <h2 id="modal-consult-title">Consultar Pack DMR</h2>
+      <p>Déjanos tu réplica y el comportamiento que buscas. Revisaremos compatibilidad antes de recomendar una configuración.</p>
+      <form class="consult-form consult-form--modal" action="https://formspree.io/f/xnjrakep" method="POST">
+        <input type="hidden" name="_subject" value="Nueva consulta Pack DMR - O’Clock Airsoft">
+        <input type="hidden" name="_next" value="gracias.html">
+        <input type="hidden" name="pack" value="Pack DMR">
+        <label>Nombre<input type="text" name="nombre" autocomplete="name" required></label>
+        <label>Email<input type="email" name="email" autocomplete="email" required></label>
+        <label>WhatsApp<input type="tel" name="whatsapp" autocomplete="tel"></label>
+        <label>Réplica base<input type="text" name="replica"></label>
+        <label class="consult-form__wide">Mensaje<textarea name="mensaje" rows="5" required></textarea></label>
+        <button class="button button--primary" type="submit">Enviar consulta</button>
+      </form>
+    </section>
+  </div>
+  <!-- FIN POP-UP DE CONSULTA -->
 
   <script src="script.js"></script>
 </body>
 </html>
+
 
